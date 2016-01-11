@@ -1,9 +1,15 @@
 ## Notification Broker
 
-Quick hack to test Elm's porting functionality. Original idea was to read a file with JS.
-DL for assignment was too close, so file is now a list.
+Project to test Elm's porting functionality.
+
+#### Compile
+```
+elm make Main.elm --output notification-broker.js
+```
+
+#### Run
+Open App.html
 
 #### TODO
-* Clean code
 * Make it smarter
 * Show user's state and notification in UI. (Something pretty)
